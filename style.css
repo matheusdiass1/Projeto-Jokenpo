@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url("https://img.freepik.com/fotos-gratis/pagode-vermelho-de-chureito-no-japao-com-o-monte-fuji-atras_181624-4668.jpg?t=st=1739635323~exp=1739638923~hmac=0732681de0ab30dc3e6c67a5ce9206c1bca0dc51c791f7db0d9819b90021e46c&w=1380");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    padding: 20px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.buttons {
+    margin: 30px 0px;
+    display: flex;
+    gap: 40px;
+}
+
+button {
+    padding: 10px;
+    font-size: 50px;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    transition: opacity 0.5s ease-in-out;
+}
+
+button:hover {
+    opacity: 0.7;
+}
+
+#rock {
+    background-color: dodgerblue
+}
+
+#paper {
+    background-color: forestgreen
+}
+
+#scissors {
+    background-color: crimson
+}
+
+
+p {
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.your-score span {
+    color: rgba(0, 0, 255, 0.822)
+}
+
+.machine-score span {
+    color: rgba(255, 0, 0, 0.836)
+}
