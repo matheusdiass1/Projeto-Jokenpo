@@ -1,11 +1,41 @@
-<h1>Projeto Jokenpo</h1>
-<br>
-<p>Nesse projeto consegui aprimorar meus conhecimentos em arrow functions e operadores lógicos</p>
+<h1 align="center">✊✋✌️ Projeto Jokenpô</h1>
 
-<h2>Tecnologias Utilizadas:</h2>
-<br>
-<img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white">
-<img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white">
-<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black">
+Este projeto é uma implementação do clássico jogo Jo-Ken-Pô (Pedra, Papel e Tesoura), desenvolvido com HTML, CSS e JavaScript.
+O usuário joga contra a máquina, e o sistema mantém um placar atualizado a cada rodada.
 
+<h1 align="center">🚀 Funcionalidades</h1>
+
+✅ Jogar Pedra, Papel ou Tesoura contra a máquina.
+
+🤖 A máquina gera sua jogada de forma aleatória.
+
+🏆 Exibição do placar em tempo real (Jogador vs Máquina).
+
+⚡ Lógica do jogo implementada com arrow functions e operadores lógicos.
+
+🎨 Interface simples e estilizada com CSS.
+
+<h1 align="center">🛠️ Tecnologias utilizadas</h1>
+
+HTML5 → estrutura do jogo.
+
+CSS3 → design e layout responsivo.
+
+JavaScript (ES6+) → regras do jogo, lógica e placar.
+
+<h1 align="center">📚 Conceitos aplicados</h1>
+
+Arrow Functions → simplificação da escrita de funções.
+
+Operadores Lógicos (&&, ||, !) → definição das regras de vitória, derrota e empate.
+
+Manipulação do DOM → atualização do placar e exibição do resultado na tela.
+
+Math.random() → escolha aleatória da jogada da máquina.
+
+<h1 align="center">🎯 Objetivo</h1>
+
+O projeto foi desenvolvido com fins de aprendizado, aplicando conceitos fundamentais de lógica de programação, funções modernas em JavaScript e interação com o usuário.
+
+<h1 align="center">📷 Demonstração</h1>
 <img src="https://github.com/matheusdiass1/Projeto-Jokenpo/blob/main/img/Jokenpo.png?raw=true">
